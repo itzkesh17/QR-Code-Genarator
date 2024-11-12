@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: "Josefin Sans",serif;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+.Qr{
+    width: 35%;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+.Qr h1{
+    font-size: 35px;
+    font-weight: 700;
+    opacity: .9;
+}
+.Qr input{
+    width: 80%;
+    padding: 15px;
+    outline: 0;
+    border-radius: 10px;
+    border: 0;
+    font-weight: 700;
+    font-size: 15px;
+    background-color: rgb(12, 12, 12);
+    color: white;
+}
+button{
+    outline: 0;
+    border: 0;
+    width: 50%;
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 800;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+#img-div{
+    padding: 15px;
+    transition: 1s;
+}
+img .result{
+    margin: 10px;
+    transition: 1s;
+}
+@media screen and (max-width: 900px){
+    .Qr{
+        width: 60%;
+        background-color: white;
+        padding: 15px;
+        border-radius: 10px;
+        text-align: center;
+        margin: 10px;
+    }
+    .Qr h1{
+        font-size: 30px;
+        font-weight: 700;
+        opacity: .9;
+    }
+    .Qr input{
+        width: 80%;
+        padding: 15px;
+        outline: 0;
+        border-radius: 10px;
+        border: 0;
+        font-weight: 700;
+        font-size: 13px;
+        background-color: rgb(12, 12, 12);
+        color: white;
+    }
+    button{
+        outline: 0;
+        border: 0;
+        width: 50%;
+        background-color: blueviolet;
+        padding: 10px;
+        border-radius: 5px;
+        font-weight: 800;
+        font-size: 16px;
+        cursor: pointer;
+    
+    }
+    #img-div{
+        padding: 15px;
+        transition: 1s;
+    }
+    img .result{
+        margin: 10px;
+        transition: 1s;
+    }
+}
+@media screen and (max-width: 500px){
+    .Qr{
+        width: 80%;
+        background-color: white;
+        padding: 15px;
+        border-radius: 10px;
+        text-align: center;
+        margin: 10px;
+    }
+    .Qr h1{
+        font-size: 28px;
+        font-weight: 700;
+        opacity: .9;
+    }
+    .Qr input{
+        width: 80%;
+        padding: 15px;
+        outline: 0;
+        border-radius: 10px;
+        border: 0;
+        font-weight: 700;
+        font-size: 12px;
+        background-color: rgb(12, 12, 12);
+        color: white;
+    }
+    button{
+        outline: 0;
+        border: 0;
+        width: 50%;
+        background-color: blueviolet;
+        padding: 10px;
+        border-radius: 5px;
+        font-weight: 800;
+        font-size: 15px;
+        cursor: pointer;
+    
+    }
+    #img-div{
+        padding: 15px;
+        transition: 1s;
+    }
+    img .result{
+        margin: 10px;
+        transition: 1s;
+    }
+}
